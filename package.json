@@ -1,0 +1,33 @@
+{
+  "name": "blog-example2",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "lint": "eslint \"src/**/*.{js,jsx,ts,jsx,astro,md}\"",
+    "fix": "eslint \"src/**/*.{js,jsx,ts,jsx,astro,md}\" --fix",
+    "format": "prettier --write . --plugin=prettier-plugin-astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.5.10",
+    "@astrojs/mdx": "^2.2.2",
+    "@astrojs/rss": "^4.0.5",
+    "@astrojs/sitemap": "^3.1.2",
+    "astro": "^4.5.12",
+    "typescript": "^5.4.3"
+  },
+  "packageManager": "pnpm@8.15.5+sha256.4b4efa12490e5055d59b9b9fc9438b7d581a6b7af3b5675eb5c5f447cee1a589",
+  "devDependencies": {
+    "@typescript-eslint/parser": "^7.4.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-astro": "^0.33.1",
+    "eslint-plugin-markdown": "^4.0.1",
+    "globals": "^15.0.0",
+    "prettier-plugin-astro": "^0.13.0"
+  }
+}
